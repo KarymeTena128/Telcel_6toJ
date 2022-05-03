@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tena/galeria_computadoras.dart';
 
 class PaginaInicial extends StatefulWidget {
   PaginaInicial({Key? key}) : super(key: key);
@@ -24,7 +23,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Galeria de Computadora"),
+          title: Text("Galeria de Computadora v2"),
         ),
         body: GridView.custom(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
